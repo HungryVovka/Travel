@@ -4,7 +4,7 @@ Assignment from the course.
 ## Project description
 Travel is a task during which you will create a landing page for a travel planning website, make it adaptive and interactive.
 
-## Key skills.:
+## Key skills:
 - valid semantic adaptive layout
 - easy to maintain readable code
 - export styles and graphics from Figma
