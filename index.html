@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img\svg\travel-logo.svg"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img\svg\travel-logo.svg"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img\svg\favicon.svg"
+    />
+    <link rel="manifest" href="img\svg\favicon.svg" />
+    <link
+      rel="mask-icon"
+      href="img\svg\favicon.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,400;1,700&family=Magra:wght@700&family=Red+Hat+Text:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__container">
+          <div class="header__logo">
+            <a href="/"
+              ><img src="img\svg\travel-logo.svg" alt="Logo" />
+              <span class="header__logo__description">Travel Portal</span>
+            </a>
+          </div>
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#how-it-works" class="header__link">How It Works</a>
+              </li>
+              <li class="header__item">
+                <a href="#plan-your-trip" class="header__link">Plan Your Trip</a>
+              </li>
+              <li class="header__item">
+                <a href="#destinations" class="header__link">Destinations</a>
+              </li>
+              <li class="header__item">
+                <a href="#travel-stories" class="header__link">Travel Stories</a>
+              </li>
+            </ul>
+          </nav>
+          <form action="./login.html">
+            <button class="header__button">
+              Login
+            </button>
+          </form>
+          <button type="button" class="mobile-nav-button">
+						<span class="mobile-nav-button__icon"></span>
+					</button> 
+        </div>
+      </div>
+    </header>
+    <div class="mobile-nav">
+			 <nav class="mobile-nav-list">
+				<ul>
+					<li><a href="#how-it-works" class="header__link">How It Works</a></li>
+					<li><a href="#plan-your-trip" class="header__link">Plan Your Trip</a></li>
+					<li><a href="#destinations" class="header__link">Destinations</a></li>
+					<li><a href="#travel-stories" class="header__link">Travel Stories</a></li>
+          <li><a href="./login.html" class="header__link">Account</a></li>
+          <li><a href="#social-media" class="header__link">Social Media</a></li>
+				</ul>
+			</nav>
+		</div>
+    <main>
+      <section class="preview">
+        <div class="container">
+          <div class="preview__container">
+            <h1 id="how-it-works" class="preview__title">
+              Explore the beauty of the World
+            </h1>
+            <p class="preview__subtitle">
+              Receive personalized recommendations for countries, hotels,
+              activities and more
+            </p>
+            <form action="/" class="preview__search-form">
+              <fieldset class="preview__search-form__fieldset">
+                <input
+                  type="text"
+                  name="user-like-to-do"
+                  class="preview__search-form__field"
+                  placeholder="What would you like to do?"
+                />
+                <button type="submit" class="preview__search-form__submit">
+                  Start Planning
+                </button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="steps">
+        <div class="container">
+          <h2 id="plan-your-trip" class="section__title">
+            3 STEPS TO THE PERFECT TRIP
+          </h2>
+          <div class="steps__container">
+            <div class="steps__item">
+              <div class="steps__image">
+                <img
+                  src="img\svg\bike.svg"
+                  alt="Steps bicycle logo"
+                />
+              </div>
+              <p class="steps__desc">Tell us what you want to do</p>
+            </div>
+            <div class="steps__item steps__middle__item">
+              <div class="steps__image">
+                <img
+                  src="img\svg\calendar.svg"
+                  alt="Steps calendar logo"
+                />
+              </div>
+              <p class="steps__desc">Share us preferable dates</p>
+            </div>
+            <div class="steps__item">
+              <div class="steps__image">
+                <img
+                  src="img\svg\airplane.svg"
+                  alt="Steps plane logo"
+                />
+              </div>
+              <p class="steps__desc">We will give you recommendations</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="destination">
+        <div class="destination__container__slider">
+          <h2 id="destinations" class="section__title">POPULAR DESTINATIONS</h2>
+          <div class="regularslider">
+            <div class="center">
+              <div class="slider" data-pos="0">
+                <div class="slider__slides">
+                  <div class="slider__slide"></div>
+                  <div class="slider__slide"></div>
+                  <div class="slider__slide"></div>
+                </div>
+                <div class="slider__dots">
+                  <a class="slider__indicator"></a>
+                  <a class="slider__dot" data-pos="0"></a>
+                  <a class="slider__dot" data-pos="1"></a>
+                  <a class="slider__dot" data-pos="2"></a>
+                </div>
+              </div>
+            </div>
+            <div class="destination__container">
+              <button class="destination__button">
+                <span class="destination__button__text">Find More</span>
+              </button>
+            </div>
+          </div>
+          <div class="minislider">
+            <div class="wrapper">
+              <input checked type=radio name="slider" id="slide1" />
+              <input type=radio name="slider" id="slide2" />
+              <input type=radio name="slider" id="slide3" />
+          
+              <div class="slider-wrapper">
+                <div class=inner>
+                  <article>
+                    <div class="info top-left">
+                      <h3>SPAIN</h3></div>
+                    <img src="img\jpg\spain2.jpg" />
+                  </article>
+          
+                  <article>
+                    <div class="info bottom-right">
+                      <h3>JAPAN</h3></div>
+                    <img src="img\jpg\japan2.jpg" />
+                  </article>
+          
+                  <article>
+                    <div class="info bottom-left">
+                      <h3>USA</h3></div>
+                    <img src="img\jpg\usa2.jpg" />
+                  </article>
+                </div>
+              </div>
+          
+              <div class="slider-prev-next-control">
+                <label for=slide1></label>
+                <label for=slide2></label>
+                <label for=slide3></label>
+              </div>
+              <div class="slider-dot-control">
+                <label for=slide1></label>
+                <label for=slide2></label>
+                <label for=slide3></label>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </section>    
+      <section class="stories">
+        <div class="container">
+          <h2 id="travel-stories" class="section__title">TRAVEL STORIES</h2>
+        </div>
+        <div class="stories__container">
+          <div class="stories__container__bg">
+            <div class="container">
+              <div class="stories__row stories__row__first">
+                <div class="stories__img">
+                  <img src="img\jpg\thailand.jpg" alt="Stories image" />
+                </div>
+                <div class="stories__desc">
+                  <h3 class="stories__title">
+                    10 Photos of Attractive Thailand
+                  </h3>
+                  <div class="stories__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa...
+                    <a href="/">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="stories__row">
+                <div class="stories__img">
+                  <img src="img\jpg\utah.jpg" alt="Stories image" />
+                </div>
+                <div class="stories__desc">
+                  <h3 class="stories__title">
+                    Canyonlands National Park, Utah
+                  </h3>
+                  <div class="stories__text" lang="zxx">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa...
+                    <a href="/">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="stories__row">
+                <div class="stories__img">
+                  <img src="img\jpg\mountain.jpg" alt="Stories image" />
+                </div>
+                <div class="stories__desc">
+                  <h3 class="stories__title">
+                    I left my heart in the Mountains!
+                  </h3>
+                  <div class="stories__text" lang="zxx">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa...
+                    <a href="/">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="stories__row">
+                <div class="stories__img">
+                  <img src="img\jpg\longroad.jpg" alt="Stories image" />
+                </div>
+                <div class="stories__desc">
+                  <h3 class="stories__title">
+                    The Longest journey in my life!
+                  </h3>
+                  <div class="stories__text" lang="zxx">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa...
+                    <a href="/">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="stories__button__container">
+                <button class="stories__button">
+                  <span class="stories__button__text">See More</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container">
+          <ul id="account" class="footer__social__icons">
+            <li>
+              <a href="https://rs.school/js-stage0/">
+                <img
+                  class="rss__logo"
+                  src="https://rs.school/images/rs_school_js.svg"
+                  alt="RS school logo"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/HungryVovka">
+                <img
+                  class="github__logo"
+                  src="img\png\github.png"
+                  alt="Github logo"
+                />
+              </a>
+            </li>
+          </ul>
+          <div class="footer__desc">&#xa9 2022 HungryVovka (Vladimir Rukavishnikov)</div>
+          <ul id="social-media" class="footer__social__icons">
+            <li>
+              <a href="https://www.instagram.com/hungryvovka/">
+                <img src="img\svg\instagram.svg" alt="Instagram logo" />
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.youtube.com/user/HungryVovka">
+                <img src="img\svg\youtube.svg" alt="Youtube logo" />
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/HungryVovka">
+                <img src="img\svg\twitter.svg" alt="Twitter logo" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/style.js"></script>
+  </body>
+</html>

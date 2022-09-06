@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Login</title>
+  <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img\svg\travel-logo.svg"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img\svg\travel-logo.svg"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img\svg\favicon.svg"
+    />
+    <link rel="manifest" href="img\svg\favicon.svg" />
+    <link
+      rel="mask-icon"
+      href="img\svg\favicon.svg"
+      color="#5bbad5"
+    />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'><link rel="stylesheet" href="./css/loginstyle.css">
+</head>
+<body>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <div class="wrap_bg">
+        <div id="main" class="login_wrap singUpActive">
+            <div class="login_question_wrap">
+                <div class="question_singUp ">
+                    <h2 class="title">Don't have an account?</h2>
+                    <p>Register on the Travel website. I will be glad to see you on my site!</p>
+                    <a href="javascript:void(0)" id="signUpBtn" class="btn btn_rounded">Sing up</a>
+                </div>
+                <div class="question_login ">
+                    <h2 class="title">Have an account?</h2>
+                    <p>Come back to my site! Nice to see you are back!</p>
+                    <a href="javascript:void(0)" id="loginBtn" class="btn btn_rounded">Log in</a>
+                </div>
+                <div class="action_singUp">
+                    <form action="./index.html">
+                        <fieldset>
+                            <legend class="title">Sing Up</legend>
+                            <div class="input_block">
+                                <div class="input_wrap">
+                                    <input type="text" id="sing_name" class="input" placeholder="Full Name">
+                                    <label for="sing_name" class="label_name"></label>
+                                </div>
+                                <div class="input_wrap">
+                                    <input type="text" id="sing_email" class="input" placeholder="Email">
+                                    <label for="sing_email" class="label_mail"></label>
+                                </div>
+                                <div class="input_wrap">
+                                    <input type="text" id="sing_pass" class="input" placeholder="Password">
+                                    <label for="sing_pass" class="label_pass"></label>
+                                </div>
+                            </div>
+                            <input type="submit" value="Sing Up" class="btn btn_red">
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="action_login">
+                    <form action="./index.html">
+                        <fieldset>
+                            <legend class="title">Log in</legend>
+                            <div class="input_block">
+                                <div class="input_wrap">
+                                    <input type="text" id="mail" class="input" placeholder="Email">
+                                    <label for="sing_pass" class="label_mail"></label>
+                                </div>
+                                <div class="input_wrap">
+                                    <input type="text" id="pass" class="input" placeholder="Password">
+                                    <label for="sing_pass" class="label_pass"></label>
+                                </div>
+                            </div>
+                            <a href="#" class="forgotPass">Forgot password?</a>
+                            <input type="submit" value="Login" class="btn btn_red">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="login_action_wrap ">
+            </div>
+        </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script src="./js/loginscript.js"></script>
+</body>
+</html>
